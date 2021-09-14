@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".DetalhesActivity">
+
+    <TextView
+        android:id="@+id/tvNome10"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:text="FGTS"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#49A4EC"
+        app:layout_constraintStart_toStartOf="@+id/tvINSS"
+        app:layout_constraintTop_toBottomOf="@+id/tvINSS"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/tvNome12"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Salário Liquido"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#49A4EC"
+        app:layout_constraintStart_toStartOf="@+id/tvFGTS"
+        app:layout_constraintTop_toBottomOf="@+id/tvFGTS"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/tvNome"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#49A4EC"
+        app:layout_constraintStart_toStartOf="@+id/tvNome2"
+        app:layout_constraintTop_toBottomOf="@+id/tvNome2"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck"
+        tools:text="fulano" />
+
+    <TextView
+        android:id="@+id/tvNome3"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Salário Bruto"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#49A4EC"
+        app:layout_constraintStart_toStartOf="@+id/tvNome"
+        app:layout_constraintTop_toBottomOf="@+id/tvNome"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/tvNome6"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:text="IR"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#49A4EC"
+        app:layout_constraintStart_toStartOf="@+id/tvSalarioBruto"
+        app:layout_constraintTop_toBottomOf="@+id/tvSalarioBruto"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/tvNome8"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:text="INSS"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#49A4EC"
+        app:layout_constraintStart_toStartOf="@+id/tvIR"
+        app:layout_constraintTop_toBottomOf="@+id/tvIR"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/tvNome2"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="40dp"
+        android:text="Nome"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#49A4EC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/tvSalarioBruto"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#49A4EC"
+        app:layout_constraintStart_toStartOf="@+id/tvNome3"
+        app:layout_constraintTop_toBottomOf="@+id/tvNome3"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck"
+        tools:text="1000" />
+
+    <TextView
+        android:id="@+id/tvIR"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#49A4EC"
+        app:layout_constraintStart_toStartOf="@+id/tvNome6"
+        app:layout_constraintTop_toBottomOf="@+id/tvNome6"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck"
+        tools:text="2" />
+
+    <TextView
+        android:id="@+id/tvINSS"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#49A4EC"
+        app:layout_constraintStart_toStartOf="@+id/tvNome8"
+        app:layout_constraintTop_toBottomOf="@+id/tvNome8"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck"
+        tools:text="3" />
+
+    <TextView
+        android:id="@+id/tvFGTS"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#49A4EC"
+        app:layout_constraintStart_toStartOf="@+id/tvNome10"
+        app:layout_constraintTop_toBottomOf="@+id/tvNome10"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck"
+        tools:text="4" />
+
+    <TextView
+        android:id="@+id/tvSalarioLiquido"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#49A4EC"
+        app:layout_constraintStart_toStartOf="@+id/tvNome12"
+        app:layout_constraintTop_toBottomOf="@+id/tvNome12"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck"
+        tools:text="5" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detalhes"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
